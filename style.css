@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;700&display=swap');
+
+/* font-family: 'Baloo Tammudu 2', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    /* to include padding and border within the original width and height of the elements */
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./mosque-alt.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 2rem;
+}
